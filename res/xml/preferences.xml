@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  
+ 
+    
+   <PreferenceScreen 
+       android:key="pref_linija_"
+       android:title="Grad/Linija/Smjer" 
+       android:summary="Odabir linije">
+       
+       		<ListPreference
+      	 	android:key="pref_grad"
+       		android:name="pref_grad_name"
+       		android:title="Grad"
+       		android:entries="@array/pref_listArray_grad"
+       		android:entryValues="@array/pref_listArray_grad"
+       		android:defaultValue="Zagreb"/>
+       		
+       		
+      		<ListPreference
+       		android:key="pref_linija"
+        	android:name="pref_linija_name"
+        	android:title="Linija"/>
+      		
+      		<ListPreference
+       		android:key="pref_smjer"
+        	android:name="pref_smjer_name"
+        	android:title="Smjer"
+        	/>
+      		
+      		
+   </PreferenceScreen>
+   
+    <ListPreference
+        android:key="pref_update_interval"
+        android:name="pref_update_interval_name"
+        android:title="Odaberi Int. Osvj." 
+        android:entries="@array/pref_listArray_update_interval"
+        android:entryValues="@array/pref_listArray_values_update_interval" 
+        android:defaultValue="5"/>
+    
+    
+</PreferenceScreen>

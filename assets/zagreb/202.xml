@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  UPUTE ZA UNOS:
+dani:
+		dan 2 - bilo koji radni dan (pon-pet)
+		dan 7 - subota
+		dan 1 - nedjelja 
+			
+Vremena: Ako za neki dan, sat, nema unosa pusti prazno. ako za minute pise 00 ili 05 treba unesti 0 odnosno 5.
+
+tagovi: <voznired>
+			<linija>
+				<smjer>
+					<dan>
+						<sati>
+							<minute>TU IDU MINUTE</minute>
+						</sati>
+					</dan<
+				</smjer>
+			</linija>
+		<voznired>
+ -->
+<voznired>
+<linija id="202">
+	<smjer id="Kvaternik">
+	    <!-- Radni dani - bilo koji broj izmedu 2 i 6 -->
+		<dan id="2">
+			<sati id="4">
+				<minute>40</minute>
+			</sati>
+			<sati id="5">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="6">
+				<minute>25</minute>
+			</sati>
+			<sati id="7">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="8">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="9">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="10">
+				<minute>30</minute>
+			</sati>
+			<sati id="11">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="12">
+				<minute>15</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="13">
+				<minute>25</minute>
+			</sati>
+			<sati id="14">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="15">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="16">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="17">
+				<minute>30</minute>
+			</sati>
+			<sati id="18">
+				<minute>5</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="19">
+				<minute>25</minute>
+			</sati>
+			<sati id="20">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="21">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="22">
+				<minute>25</minute>
+			</sati>
+			<sati id="23">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<kraj></kraj>
+		</dan>
+		
+		
+		<!-- Subota -->
+		<dan id="7">
+		  	<sati id="4">
+				<minute>40</minute>
+			</sati>
+			<sati id="5">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="6">
+				<minute>25</minute>
+			</sati>
+			<sati id="7">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="8">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="9">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="10">
+				<minute>30</minute>
+			</sati>
+			<sati id="11">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="12">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="13">
+				<minute>25</minute>
+			</sati>
+			<sati id="14">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="15">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="16">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="17">
+				<minute>30</minute>
+			</sati>
+			<sati id="18">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="19">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="20">
+				<minute>25</minute>
+			</sati>
+			<sati id="21">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="22">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="23">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<kraj></kraj>
+		</dan>
+
+		
+		<!-- Nedjelja -->
+		<dan id="1">		
+			<sati id="5">
+				<minute>50</minute>
+			</sati>
+			<sati id="6">
+				<minute>25</minute>
+			</sati>
+			<sati id="7">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="8">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="9">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="10">
+				<minute>30</minute>
+			</sati>
+			<sati id="11">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="12">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="13">
+				<minute>25</minute>
+			</sati>
+			<sati id="14">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="15">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="16">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="17">
+				<minute>30</minute>
+			</sati>
+			<sati id="18">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="19">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="20">
+				<minute>25</minute>
+			</sati>
+			<sati id="21">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="22">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="23">
+				<minute>20</minute>
+			</sati> 
+			<kraj></kraj>
+		</dan>	
+	</smjer>
+		
+	<smjer id="Kozjak">
+		<!-- Radni dani - bilo koji broj izmedu 2 i 6 -->
+		<dan id="2">
+			<sati id="5">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="6">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="7">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="8">
+				<minute>30</minute>
+			</sati>
+			<sati id="9">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="10">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="11">
+				<minute>25</minute>
+			</sati>
+			<sati id="12">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="13">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="14">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="15">
+				<minute>30</minute>
+			</sati>
+			<sati id="16">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="17">
+				<minute>15</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="18">
+				<minute>35</minute>
+			</sati>
+			<sati id="19">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="20">
+				<minute>25</minute>
+			</sati>
+			<sati id="21">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="22">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="23">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<kraj></kraj>
+		</dan>
+		
+		
+		<!-- Subota -->
+		<dan id="7">
+		  	<sati id="5">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="6">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="7">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="8">
+				<minute>30</minute>
+			</sati>
+			<sati id="9">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="10">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="11">
+				<minute>25</minute>
+			</sati>
+			<sati id="12">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="13">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="14">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="15">
+				<minute>30</minute>
+			</sati>
+			<sati id="16">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="17">
+				<minute>15</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="18">
+				<minute>25</minute>
+			</sati>
+			<sati id="19">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="20">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="21">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="22">
+				<minute>30</minute>
+			</sati>
+			<sati id="23">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="0">
+			    <minute>15</minute>
+			</sati>
+			<kraj></kraj>
+		</dan>
+
+		
+		<!-- Nedjelja -->
+		<dan id="1">		
+
+			<sati id="6">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="7">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="8">
+				<minute>30</minute>
+			</sati>
+			<sati id="9">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="10">
+				<minute>15</minute>
+				<minute>50</minute>
+			</sati>
+			<sati id="11">
+				<minute>25</minute>
+			</sati>
+			<sati id="12">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="13">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="14">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="15">
+				<minute>30</minute>
+			</sati>
+			<sati id="16">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="17">
+				<minute>15</minute>
+				<minute>40</minute>
+			</sati>
+			<sati id="18">
+				<minute>25</minute>
+			</sati>
+			<sati id="19">
+				<minute>0</minute>
+				<minute>35</minute>
+			</sati>
+			<sati id="20">
+				<minute>10</minute>
+				<minute>45</minute>
+			</sati>
+			<sati id="21">
+				<minute>20</minute>
+				<minute>55</minute>
+			</sati>
+			<sati id="22">
+				<minute>30</minute>
+			</sati>
+			<sati id="23">
+				<minute>5</minute>
+				<minute>40</minute>
+			</sati> 
+			<kraj></kraj>
+		</dan>
+		
+	</smjer>
+</linija>
+
+</voznired>

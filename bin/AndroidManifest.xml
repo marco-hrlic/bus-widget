@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zet_widget"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-permission 
+        android:name="android.permission.WAKE_LOCK"/>	
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        
+        
+        
+<!-- main activity -->
+        <activity
+            android:name="com.example.zet_widget.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+<!-- settings activity -->        
+		<activity
+            android:name="com.example.zet_widget.SettingsActivity"
+            android:label="@string/app_name" >
+            <intent-filter >
+                <action android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+		
+<!-- time activity -->        
+		<activity
+            android:name="com.example.zet_widget.TimeActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+
+<!-- preference fragment -->
+		<activity
+            android:name="com.example.zet_widget.PrefActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+		
+		
+<!-- settings fragment -->
+		<activity
+            android:name="com.example.zet_widget.SettingsFragment"
+            android:label="@string/app_name" >
+        </activity>
+
+
+
+
+<!-- widget class -->
+		<activity
+            android:name="com.example.zet_widget.ExampleAppWidgetProvider"
+            android:label="@string/app_name" >
+ 			<intent-filter >
+                <action android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+		
+		
+		
+		
+<!-- widget receiver -->
+        <receiver android:name=".ExampleAppWidgetProvider"
+                  android:label="zetWigdet">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                	   android:resource="@xml/widget_info" />
+        </receiver>
+        
+        
+<!-- 'Update Manager -->        
+     <receiver android:name=".AlarmManagerBroadcastReceiver"/>   
+        
+        
+    </application>
+
+</manifest>

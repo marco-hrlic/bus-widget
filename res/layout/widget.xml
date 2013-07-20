@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+	<ImageButton
+	    android:id="@+id/button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:alpha="1"
+	    android:background="@color/transp"
+	    android:src="@drawable/ic_settings"
+	    android:contentDescription="@string/button_text"
+	    android:text="@string/button_text"
+	    android:textColor="@color/greyText" />
+
+	<TextView
+	    android:id="@+id/nazivlinije"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:hint="@string/hint"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="@color/linijacolor"
+	    android:textSize="30sp" />
+
+	<TextView
+	    android:id="@+id/widgetlabel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@+id/nazivlinije"
+	    android:hint="@string/hint"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="@color/timecolor" />
+
+	<TextView
+	    android:id="@+id/direction"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignRight="@+id/widgetlabel"
+	    android:layout_below="@+id/nazivlinije"
+	    android:hint="@string/hint" />
+
+	<ImageButton
+	    android:id="@+id/Button_reverse"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/button"
+	    android:layout_alignTop="@+id/button"
+	    android:layout_toLeftOf="@+id/button"
+	    android:alpha="1"
+	    android:background="@color/transp"
+	    android:contentDescription="@string/button_text"
+	    android:src="@drawable/ic_reverse"
+	    android:text="@string/button_reverse_text"
+	    android:textColor="@color/greyText" />
+
+	<TextView
+	    android:id="@+id/lasttime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/direction"
+	    android:layout_alignBottom="@+id/direction"
+	    android:layout_alignLeft="@+id/Button_reverse"
+	    android:layout_alignParentRight="true"
+	    android:gravity="center"
+	    android:hint="@string/hint"
+	    android:textColor="@color/greyText" />
+
+</RelativeLayout>

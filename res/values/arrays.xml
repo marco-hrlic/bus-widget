@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <string-array name="pref_listArray_grad">
+        <item>Zagreb</item>
+    	<item>Rijeka</item>
+    	<item>Pula</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    <string-array name="pref_listArray_linije_zagreb">
+        <item>202 Kvaternik-Kozjak</item>
+        <item>238 Kaptol-Kozjak</item>
+        <item>201 Kvaternik-Kaptol</item>
+    </string-array>
+    
+    <string-array name="pref_listArray_values_linije_zagreb">
+        <item>202</item>
+        <item>238</item>
+        <item>201</item>
+    </string-array>
+    
+    <string-array name="pref_listArray_linije_pula">
+        <item>2a Giardini-Verudela</item>
+    </string-array>
+    
+    <string-array name="pref_listArray_values_linije_pula">
+        <item>2a</item>
+    </string-array>
+    
+    
+    <string-array name="pref_listArray_linije_rijeka">
+        <item>1 rijeka-nesto</item>
+    </string-array>
+    
+    <string-array name="pref_listArray_values_linije_rijeka">
+        <item>1</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    <string-array name="pref_listArray_update_interval">
+        <item>5 sek</item>
+        <item>30 sek</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>3 min</item>
+    </string-array>
+    
+    <string-array name="pref_smjer_array">
+       <item>a-b</item> 
+       <item>b-a</item>
+    </string-array>
+    <string-array name="pref_smjer_array_values">
+       <item>a-b</item> 
+       <item>b-a</item>
+    </string-array>
+    
+    
+  	 <string-array name="pref_listArray_values_update_interval">
+        <item>5</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+    
+</resources>

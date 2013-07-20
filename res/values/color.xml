@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transp">#00000000</color>
+    <color name="timecolor">#d3d3d3</color>
+    <color name="linijacolor">#fffafa</color>
+    <color name="greyText">#7A7A7A</color>
+</resources>
